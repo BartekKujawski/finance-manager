@@ -79,14 +79,14 @@ Możliwe jest wyświetlanie salda:
 System umożliwia tworzenie raportów finansowych na podstawie danych użytkownika.
 
 Typy raportów:
-	1.	Raport miesięczny
+	1.	Raport miesięczny: 
 	•	suma wydatków i przychodów,
 	•	grupowanie według kategorii,
 	•	procentowy udział wydatków w budżecie.
-	2.	Raport roczny
+	2.	Raport roczny: 
 	•	porównanie miesięcy,
-	•	wykres przychody–wydatki (jeśli aplikacja GUI lub plik eksportu).
-	3.	Raport kategorii
+	•	wykres przychody–wydatki.
+	3.	Raport kategorii: 
 	•	zestawienie wydatków i przychodów dla wybranej kategorii,
 	•	zmiany w czasie.
 
