@@ -3,7 +3,7 @@ package model;
 import java.util.Date;
 
 public abstract class Transaction {
-    private double amount; // Hermetyzacja
+    private double amount;
     private Date date;
     private String description;
 
@@ -13,8 +13,9 @@ public abstract class Transaction {
         this.description = description;
     }
 
-    public abstract String getSummary(); // Metoda abstrakcyjna
+    public abstract String getSummary();
 
     public double getAmount() { return amount; }
+    public String getDescription() { return description; }
     public Date getDate() { return date; }
 }

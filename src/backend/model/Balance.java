@@ -1,7 +1,7 @@
-package logic;
+package model;
 
-import model.Income;
-import model.Transaction;
+import exceptions.BudgetException;
+import logic.BudgetValidator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +9,10 @@ import java.util.List;
 public class Balance {
     private List<Transaction> transactions = new ArrayList<>();
 
-    public void addTransaction(Transaction t) {
-        transactions.add(t);
+    public void addTransaction(Transaction t) throws BudgetException {
+        if (BudgetValidator.validateAmount(t.getAmount())) {
+            transactions.add(t);
+        }
     }
 
     public double calculateTotal() {

@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface IDataExport {
+public interface DataExport {
     void exportToFile(String path);
 }

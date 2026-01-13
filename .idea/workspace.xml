@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d7a86c-5e1b-4eef-81c8-4f2362566822" name="Changes" comment="" />
+    <list default="true" id="59d7a86c-5e1b-4eef-81c8-4f2362566822" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/finance-manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/logic/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/finance-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/finance-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/exceptions/BudgetException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/interfaces/IDataExport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/logic/Balance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/logic/BudgetValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/logic/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/Expense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/ExpenseCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/Income.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/IncomeCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-manager-uml.png" beforeDir="false" afterPath="$PROJECT_DIR$/finance-manager-uml.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +36,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -25,24 +51,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Bartek/IdeaProjects/finance-manager/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Bartek/IdeaProjects/finance-manager/src/backend/logic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Bartek/IdeaProjects/finance-manager/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\backend\logic" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src" />
+      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\backend\model" />
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager" />
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\backend\src" />
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\backend" />
@@ -67,6 +107,9 @@
       <workItem from="1767956124855" duration="1214000" />
       <workItem from="1767957391103" duration="1154000" />
       <workItem from="1767989983951" duration="29000" />
+      <workItem from="1768242355608" duration="145000" />
+      <workItem from="1768305432550" duration="794000" />
+      <workItem from="1768306241130" duration="2266000" />
     </task>
     <servers />
   </component>
