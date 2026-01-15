@@ -4,25 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d7a86c-5e1b-4eef-81c8-4f2362566822" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/finance-manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/logic/AuthService.java" afterDir="false" />
+    <list default="true" id="2c9d2abe-4534-446f-9e1a-8f19a1a2ece7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/finance-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/finance-manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/exceptions/BudgetException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/interfaces/IDataExport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/logic/Balance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/logic/BudgetValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/logic/Report.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/Expense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/ExpenseCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/Income.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/IncomeCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-manager-uml.png" beforeDir="false" afterPath="$PROJECT_DIR$/finance-manager-uml.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/exceptions/BudgetException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/finance-manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/interfaces/DataExport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/logic/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/logic/BudgetValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/logic/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/Balance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/Expense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/ExpenseCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/Income.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/IncomeCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/model/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -43,27 +47,34 @@
     <commands />
     <urls />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="37tg8AH2nWwHMJ7w9fV8IbWKSlN" />
+  <component name="ProjectId" id="38GgWUV7jc13yXUZPKJwPFLJTia" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BudgetApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Bartek/IdeaProjects/finance-manager/src/backend/logic",
+    "last_opened_file_path": "C:/Users/Bartek/IdeaProjects/finance-manager-old",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,22 +82,35 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Bartek/IdeaProjects/finance-manager/src/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\backend\logic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\main\java\app\config" />
+      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\main\java\app" />
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src" />
-      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\backend\model" />
-      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager" />
-      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\backend\src" />
-      <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\backend" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BudgetApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="finance-manager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.BudgetApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BudgetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="finance-manager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.app.BudgetApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,22 +122,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59d7a86c-5e1b-4eef-81c8-4f2362566822" name="Changes" comment="" />
-      <created>1767727862740</created>
+      <changelist id="2c9d2abe-4534-446f-9e1a-8f19a1a2ece7" name="Changes" comment="" />
+      <created>1768431353817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1767727862740</updated>
-      <workItem from="1767727863954" duration="926000" />
-      <workItem from="1767956124855" duration="1214000" />
-      <workItem from="1767957391103" duration="1154000" />
-      <workItem from="1767989983951" duration="29000" />
-      <workItem from="1768242355608" duration="145000" />
-      <workItem from="1768305432550" duration="794000" />
-      <workItem from="1768306241130" duration="2266000" />
+      <updated>1768431353817</updated>
+      <workItem from="1768431357967" duration="48000" />
+      <workItem from="1768466627426" duration="5510000" />
+      <workItem from="1768477008522" duration="817000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BudgetApplication.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
