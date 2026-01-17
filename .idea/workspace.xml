@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9d2abe-4534-446f-9e1a-8f19a1a2ece7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/exceptions/BudgetException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/finance-manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/interfaces/DataExport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/logic/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/logic/BudgetValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/logic/Report.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/Balance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/Expense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/ExpenseCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/Income.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/IncomeCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-manager-uml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/enums/ExpenseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/enums/ExpenseCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/enums/IncomeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/enums/IncomeCategory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,58 +45,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.BudgetApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Bartek/IdeaProjects/finance-manager-old",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Bartek/IdeaProjects/finance-manager/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BudgetApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bartek/IdeaProjects/finance-manager&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Bartek/IdeaProjects/finance-manager/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\main\java\app\config" />
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src\main\java\app" />
       <recent name="C:\Users\Bartek\IdeaProjects\finance-manager\src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="BudgetApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="finance-manager" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="app.BudgetApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BudgetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="finance-manager" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.app.BudgetApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -130,6 +98,10 @@
       <workItem from="1768431357967" duration="48000" />
       <workItem from="1768466627426" duration="5510000" />
       <workItem from="1768477008522" duration="817000" />
+      <workItem from="1768479314206" duration="1518000" />
+      <workItem from="1768481971100" duration="244000" />
+      <workItem from="1768482551444" duration="122000" />
+      <workItem from="1768665465471" duration="489000" />
     </task>
     <servers />
   </component>
