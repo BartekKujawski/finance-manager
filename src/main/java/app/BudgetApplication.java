@@ -14,7 +14,7 @@ public class BudgetApplication {
     }
 
     @Bean
-    CommandLineRunner init(BudgetService service) {
+    public static CommandLineRunner init(BudgetService service) {
         return args -> {
             service.registerUser("1", "Tata", "admin123");
             service.registerUser("2", "Mama", "mama2024");
