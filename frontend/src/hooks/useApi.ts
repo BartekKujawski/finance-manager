@@ -48,7 +48,18 @@ export const useApi = () => {
                 try {
                     const errorText = await response.text();
                     if (errorText && errorText.trim()) {
-                        apiError = errorText;
+                        // Try to parse JSON error response
+                        try {
+                            const errorJson = JSON.parse(errorText);
+                            if (errorJson.message) {
+                                apiError = errorJson.message;
+                            } else {
+                                apiError = errorText;
+                            }
+                        } catch {
+                            // If not JSON, use the text as is
+                            apiError = errorText;
+                        }
                     }
                 } catch {
                     // Ignore error reading error response
